@@ -1,7 +1,5 @@
-
-
 install:
-		poetry install
+	poetry install
 
 activate:
 	poetry shell
@@ -13,7 +11,7 @@ docker.build:
 docker.shell:
 	docker-compose run --rm app bash
 
-run.jorge: activate # Run 'make activate' before 'run.jorge'
+run.jorge: activate
 	program add jorge
 
 	
