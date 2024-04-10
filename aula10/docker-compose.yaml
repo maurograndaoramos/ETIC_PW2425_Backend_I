@@ -1,0 +1,8 @@
+version: "latest"
+services:
+  api:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/workspace

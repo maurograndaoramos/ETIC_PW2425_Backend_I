@@ -1,9 +1,11 @@
 import discord
 from discord.message import Message
 
-intent=discord.Intents.default()
 
-client = discord.Client()
+intents= discord.Intents.default()
+
+client = discord.Client(intents=intents)
+
 
 @client.event
 async def on_connect():
