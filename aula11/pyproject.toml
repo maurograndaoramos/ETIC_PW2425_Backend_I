@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "CatalogoAPI"
+version = "0.1.0"
+description = "Aula11's poetry document"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "api", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+black = "^24.3.0"
+uvicorn = "^0.29.0"
+datetime = "^5.5"
+pymongo = "^4.6.3"
+faker = "^24.8.0"
+
+[tool.poetry.scripts]
+api = "api.run:api"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+version: "latest"
+services:
+  api:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: uvicorn api.main:api
+    volumes:
+      - .:/workspace
+    ports:
+      - 8000:8000
+      

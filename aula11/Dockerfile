@@ -11,3 +11,7 @@ VOLUME [ "/workspace" ]
 COPY . .
 
 RUN poetry install
+
+EXPOSE 8000
+
+CMD python -m api.run
