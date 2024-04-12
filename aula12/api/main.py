@@ -1,7 +1,6 @@
 from fastapi import FastAPI
-from api.routes import (
-    alumni
-)
+
+from api.routes import alumni
 
 
 api = FastAPI(

@@ -14,5 +14,5 @@ RUN poetry install --no-cache
 
 EXPOSE 8000
 
-CMD ["poetry", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0.", "--port", "8000", "--reload"]
+CMD [ "uvicorn", "api.main:api", "--host","0.0.0.0","--reload" ]
 
