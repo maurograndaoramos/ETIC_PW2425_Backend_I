@@ -14,8 +14,7 @@ It has three get methods that allow you, the user, to retrieve the entire DB, or
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
+- [API Documentation](#api-endpoints)
 - [License](#license)
 
 ## Installation
