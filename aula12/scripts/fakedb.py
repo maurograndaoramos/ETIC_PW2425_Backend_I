@@ -21,5 +21,5 @@ if __name__ == '__main__':
         for _ in range(total_rows)
     ]
 
-    with open("db.json","w") as file:
+    with open("db/db.json","w") as file:
         file.writelines(json.dumps(result, indent=2))
