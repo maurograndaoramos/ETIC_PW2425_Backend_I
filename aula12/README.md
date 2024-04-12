@@ -6,7 +6,7 @@ API_PROJ_AULA12
 
 ## Description
 
-This is a simple API using FastAPI project created for learning purposes. All it does is use a fake database (with the use of the Faker module) to retrieve information on several alumni from a non-specified school.
+This is a simple API project using FastAPI created for learning purposes. All it does is use a fake database (with the use of the Faker module) to retrieve information on several alumni from a non-specified school.
 
 It has three get methods that allow you, the user, to retrieve the entire DB, or search by ID or alumni name.
 
