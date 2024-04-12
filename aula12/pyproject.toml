@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "api-proj12"
+name = "api"
 version = "0.1.0"
 description = "A simple API Project to consolidate all information learned in classes 9 to 12"
 authors = ["Your Name <you@example.com>"]
@@ -15,7 +15,6 @@ uvicorn = "^0.29.0"
 datetime = "^5.5"
 pymongo = "^4.6.3"
 pydantic = "^2.7.0"
-
 
 [build-system]
 requires = ["poetry-core"]
